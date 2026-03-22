@@ -30,7 +30,7 @@ Before you start, make sure you have:
 ## Quick Start
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Rastrai/Openrastr-evolve.git
 cd openrastr-evolve
 ./scripts/bootstrap.sh
 ```
