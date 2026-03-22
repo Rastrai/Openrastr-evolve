@@ -1,6 +1,8 @@
 # OpenRastr Evolve
 
 <img width="1024" height="1024" alt="OpenRastr Evolve logo" src="https://github.com/user-attachments/assets/b9beb81a-e810-4d12-ab2d-118adc426dee" />
+<img width="902" height="61" alt="image" src="https://github.com/user-attachments/assets/f164074a-294a-4158-a932-e5fd2d14a954" />
+
 
 OpenRastr Evolve is a Python-based AI workflow runtime built around three core modules:
 
