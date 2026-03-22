@@ -4,7 +4,8 @@
 <img width="902" height="61" alt="image" src="https://github.com/user-attachments/assets/f164074a-294a-4158-a932-e5fd2d14a954" />
 
 
-OpenRastr Evolve is a Python-based AI workflow runtime built around three core modules:
+
+OpenRastr-Evolve is a Python-based AI workflow runtime built around three core modules:
 
 1. Goal Interpretation
 2. Capability Registration
