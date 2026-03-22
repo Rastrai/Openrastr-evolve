@@ -11,8 +11,7 @@ OpenRastr-Evolve is a Python-based AI workflow runtime built around three core m
 2. Capability Registration
 3. Agent Spawning
 
-It is designed to work with Ollama-served LLMs and SLMs and to act as an orchestration layer for agent-based systems. It works well alongside tools such as Claude Code, Codex, OpenClaw, and other coding or execution agents.
-
+It is designed to work with Ollama-served LLMs and SLMs and to act as an orchestration layer for agent-based systems. 
 ## What It Does
 
 OpenRastr Evolve helps turn a natural-language goal into an executable AI workflow by:
@@ -33,7 +32,7 @@ OpenRastr Evolve is useful for teams and builders who already use tools such as:
 
 It is not intended to replace those tools.
 
-Instead, OpenRastr Evolve sits above them as a workflow layer that helps:
+Instead, OpenRastr Evolve sits  as a workflow layer that helps:
 
 - interpret high-level goals
 - map goals to reusable capabilities
