@@ -1,6 +1,26 @@
 # OpenRastr Evolve
 
 <img width="1024" height="1024" alt="OpenRastr Evolve logo" src="https://github.com/user-attachments/assets/b9beb81a-e810-4d12-ab2d-118adc426dee" />
+## Who This Is For
+
+OpenRastr Evolve is useful for teams and builders who already use tools such as:
+
+- Claude Code
+- Codex
+- OpenClaw
+- Ollama-backed local agents
+- custom coding or execution agents
+
+It is not intended to replace those tools.
+
+Instead, OpenRastr Evolve sits above them as a workflow layer that helps:
+
+- interpret high-level goals
+- map goals to reusable capabilities
+- register missing capabilities
+- spawn and coordinate agents around those capabilities
+
+In other words, if Claude Code, Codex, or OpenClaw are the workers, OpenRastr Evolve is the orchestration layer that helps decide what work should be done and how it should be structured.
 
 OpenRastr Evolve is a Python-based AI workflow runtime built around three core modules:
 
