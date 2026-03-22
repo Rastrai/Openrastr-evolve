@@ -14,7 +14,7 @@ OpenRastr-Evolve is a Python-based AI workflow runtime built around three core m
 It is designed to work with Ollama-served LLMs and SLMs and to act as an orchestration layer for agent-based systems. 
 ## What It Does
 
-OpenRastr Evolve helps turn a natural-language goal into an executable AI workflow by:
+OpenRastr-Evolve helps turn a natural-language goal into an executable AI workflow by:
 
 - interpreting the goal into a structured schema
 - matching or generating the capabilities needed to fulfill it
@@ -193,3 +193,5 @@ python -m openrastr_evolve.cli run --help
 This project is licensed under the GNU General Public License v3.0.
 
 This product includes software developed by RastrAI Pvt Ltd.
+<img width="1167" height="639" alt="image" src="https://github.com/user-attachments/assets/fceea320-969e-4550-ac78-cb1aa3bfeb4c" />
+
