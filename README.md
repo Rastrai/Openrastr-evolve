@@ -26,13 +26,15 @@ Before you start, make sure you have:
 - `pip`
 - Ollama installed and running
 - at least one Ollama model available locally
+- for example, `qwen2.5:7b`
 
-## Quick Start
+## Quick Start: macOS and Linux
 
 ```bash
 git clone https://github.com/Rastrai/Openrastr-evolve.git
-cd openrastr-evolve
+cd Openrastr-evolve
 ./scripts/bootstrap.sh
+openrastr-evolve doctor
 ```
 
 The bootstrap script will:
@@ -42,9 +44,43 @@ The bootstrap script will:
 - install the project in editable mode
 - launch the OpenRastr Evolve onboarding wizard
 
+## Quick Start: Windows
+
+Use PowerShell for the steps below.
+
+```powershell
+git clone https://github.com/Rastrai/Openrastr-evolve.git
+cd Openrastr-evolve
+
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
+
+python -m pip install --upgrade pip
+python -m pip install setuptools wheel
+python -m pip install --no-build-isolation -e .
+python -m openrastr_evolve.cli onboard
+python -m openrastr_evolve.cli doctor
+python -m openrastr_evolve.cli run --help
+```
+
+If PowerShell blocks virtual environment activation, run:
+
+```powershell
+Set-ExecutionPolicy -Scope Process Bypass
+.\.venv\Scripts\Activate.ps1
+```
+
+If `openrastr-evolve` is not recognized on Windows, use:
+
+```powershell
+python -m openrastr_evolve.cli onboard
+python -m openrastr_evolve.cli doctor
+python -m openrastr_evolve.cli run --help
+```
+
 ## Manual Setup
 
-If you prefer to install manually:
+If you prefer to install manually on macOS or Linux:
 
 ```bash
 python3 -m venv .venv
@@ -58,11 +94,22 @@ openrastr-evolve doctor
 
 ## CLI Commands
 
+On macOS and Linux:
+
 ```bash
 openrastr-evolve onboard
 openrastr-evolve doctor
 openrastr-evolve run --goal-file path/to/goal.txt
 openrastr-evolve register-skill path/to/skill.md
+```
+
+On Windows, if the CLI command is not available in `PATH`:
+
+```powershell
+python -m openrastr_evolve.cli onboard
+python -m openrastr_evolve.cli doctor
+python -m openrastr_evolve.cli run --goal-file path\to\goal.txt
+python -m openrastr_evolve.cli register-skill path\to\skill.md
 ```
 
 ## Configuration
@@ -72,6 +119,8 @@ The onboarding wizard writes configuration to:
 ```text
 ~/.openrastr_evolve/config.json
 ```
+
+On Windows, `~` refers to your user home directory.
 
 Supported settings include:
 
@@ -92,7 +141,7 @@ pip install --no-build-isolation -e .
 
 This keeps the repository editable while exposing the `openrastr-evolve` CLI command.
 
-If you want the fastest setup path, use:
+If you want the fastest setup path on macOS or Linux, use:
 
 ```bash
 ./scripts/bootstrap.sh
@@ -100,12 +149,20 @@ If you want the fastest setup path, use:
 
 ## First Run
 
-After installation, the usual first-run flow is:
+Typical first-run flow on macOS and Linux:
 
 ```bash
 openrastr-evolve onboard
 openrastr-evolve doctor
 openrastr-evolve run --help
+```
+
+Typical first-run flow on Windows:
+
+```powershell
+python -m openrastr_evolve.cli onboard
+python -m openrastr_evolve.cli doctor
+python -m openrastr_evolve.cli run --help
 ```
 
 ## License
