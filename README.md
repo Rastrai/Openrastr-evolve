@@ -1,5 +1,7 @@
 # OpenRastr Evolve
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/fa1fc2fb-cbd9-4c58-aeca-2f1ac553ae42" />
+
 OpenRastr Evolve is a Python-first AI workflow runtime built around three generic modules:
 
 1. Goal Interpretation
