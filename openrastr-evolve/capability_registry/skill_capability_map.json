@@ -1,0 +1,33 @@
+[
+  {
+    "skill_id": "skill_c9dd3bf56c",
+    "skill_name": "Code Evolver",
+    "capability_name": "Code Evolver",
+    "description": "Continuously generate, refine, validate, and improve code until it meets functional, structural, and quality standards.",
+    "tags": [
+      "scaffolding",
+      "verification",
+      "automation",
+      "code-generation",
+      "refactoring"
+    ],
+    "semantic_text": "Code Evolver Continuously generate, refine, validate, and improve code until it meets functional, structural, and quality standards. scaffolding verification automation code-generation refactoring",
+    "embedding": null,
+    "version": 1
+  },
+  {
+    "skill_id": "skill_da5b13b782",
+    "skill_name": "Verification Engine",
+    "capability_name": "Verification Engine",
+    "description": "Validate, test, and ensure that generated outputs are correct, complete, and aligned with user intent.",
+    "tags": [
+      "verification",
+      "quality-assurance",
+      "validation",
+      "testing"
+    ],
+    "semantic_text": "Verification Engine Validate, test, and ensure that generated outputs are correct, complete, and aligned with user intent. verification quality-assurance validation testing",
+    "embedding": null,
+    "version": 1
+  }
+]

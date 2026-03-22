@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Clinical data processing",
+    "backend": "Python",
+    "description": "A Python module for clinical data processing, including the ability to process longitudinal data and generate proactive care intervention recommendations.",
+    "dependencies": [
+      "pandas"
+    ],
+    "module_path": "deep_pipeline/generated_capabilities/clinical_data_processing.py"
+  },
+  {
+    "name": "Parse structured ontology formats (RDF, OWL, JSON-LD)",
+    "backend": "codellama:latest",
+    "description": "Auto-generated capability module for Parse structured ontology formats (RDF, OWL, JSON-LD).",
+    "dependencies": [
+      "Code Evolver"
+    ],
+    "module_path": "deep_pipeline/generated_capabilities/parse_structured_ontology_formats_rdf_owl_json_ld.py"
+  },
+  {
+    "name": "Convert parsed ontology data into Markdown format",
+    "backend": "Python",
+    "description": "Reusable Python module for converting parsed ontology data into Markdown format.",
+    "dependencies": [
+      "rdflib"
+    ],
+    "module_path": "deep_pipeline/generated_capabilities/convert_parsed_ontology_data_into_markdown_format.py"
+  }
+]

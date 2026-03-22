@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openrastr-evolve"
+version = "0.1.0"
+description = "Generic goal interpretation, capability registration, and agent spawning pipeline for Ollama-backed AI workflows."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0",
+  "rapidfuzz>=3.9.0",
+]
+
+[project.scripts]
+openrastr-evolve = "openrastr_evolve.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = [
+  "openrastr_evolve",
+  "deep_pipeline",
+  "deep_pipeline.*",
+  "capability_registry",
+  "goal_interpreter_ollama_modules",
+  "skills_registry",
+]
+
+[tool.setuptools.package-data]
+capability_registry = ["*.json", "*.md"]
+skills_registry = ["*.json", "*.log", "packages/**/*.md", "packages/**/*.zip"]
