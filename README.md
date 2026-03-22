@@ -193,5 +193,8 @@ python -m openrastr_evolve.cli run --help
 This project is licensed under the GNU General Public License v3.0.
 
 This product includes software developed by RastrAI Pvt Ltd.
-<img width="1167" height="639" alt="image" src="https://github.com/user-attachments/assets/fceea320-969e-4550-ac78-cb1aa3bfeb4c" />
+
+
+<img width="1179" height="640" alt="image" src="https://github.com/user-attachments/assets/db92ec67-0667-4607-ad66-a25734394de9" />
+
 
